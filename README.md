@@ -24,8 +24,8 @@ During local stress testing (100 concurrent workers), the architecture achieved:
 
 ```text
 java-multithreaded-server/
-├── client/
+├── Client/
 │   └── Client.java       # The stress-testing suite utilizing CountDownLatch
-├── server/
+├── Server/
 │   └── Server.java       # The multithreaded TCP server with ThreadPoolExecutor          
 └── README.md             # Project documentation and performance metrics
