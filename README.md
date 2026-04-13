@@ -19,7 +19,7 @@ During local stress testing (100 concurrent workers), the architecture achieved:
 - **Throughput:** ~680 Requests / Second
 - **Average Queue Latency:** ~125 ms under heavy lock contention
 - **Failure Rate:** 0%
-- 
+  
 ## Repository Structure
 
 ```text
